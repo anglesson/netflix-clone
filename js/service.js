@@ -1,4 +1,4 @@
-const apiKey = "df1603189d55008780a7208650c8359d"
+const apiKey = "SUA_CHAVE_AQUI"
 axios
 	.get(`https://api.themoviedb.org/3/list/7095569?api_key=${apiKey}`)
 	.then(function (response) {
